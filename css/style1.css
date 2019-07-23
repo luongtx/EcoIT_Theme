@@ -1,13 +1,14 @@
 .navbar{
   opacity:0.7;
-  min-height: 85px;
-  font-size: 15px;
+  min-height: 100px;
+  font-size: 1.4vw;
   font-family: Times;
 }
 .collapse{
-  height:135px;
+  height:120px;
 }
-.navbar-brand img{
+#brandimg{
+  transition: 1s;
   position:absolute;
   width:100px;
   top:15px;
@@ -20,6 +21,15 @@
   top:75px;
   left:50%;
   transform:translateX(-50%);
+}
+.scrolledbrand{
+  transition: 1s;
+  top:15px;
+  left:85px!important;
+}
+.scrollednav{
+  top:15px;
+  margin-left:30px;
 }
 .navbar-nav li{
   padding:7px;
@@ -91,6 +101,7 @@
   opacity: 0.7;
 }
 #rbutton1 {
+  font-size: 1.4vw;
   border-radius: 40px; 
 }
 #rbutton2 {
@@ -112,6 +123,12 @@
   }
   .carousel-inner img{
     height: 100%;
+  }
+  .navbar{
+    font-size: 15px;
+  }
+  #rbutton1{
+    font-size: 15px;
   }
 }
 @media (max-width:610px){
