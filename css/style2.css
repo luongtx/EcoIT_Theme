@@ -1,0 +1,160 @@
+.arrow-right {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 98%;
+}
+
+.arrow-left {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+}
+
+.slide1 {
+    width: 100%;
+    height: 225px;
+    transition: 1s;
+}
+
+.slide2 {
+    position: absolute;
+    width: 100%;
+    height: 225px;
+    top: 0px;
+    opacity: 0;
+    transform: translateX(-2000px);
+    transition: 1s;
+}
+
+i.fas.fa-chevron-right {
+    right: 0px;
+    cursor: pointer;
+}
+
+i.fas.fa-chevron-left {
+    left: 0px;
+    cursor: pointer;
+}
+
+.partner {
+    position: relative;
+    width: 100%;
+    height: 225px;
+}
+
+.partner a {
+    height: 225px;
+    width: 225px;
+    margin-left: 58px;
+    display: inline-block;
+}
+
+.chu {
+    margin: auto;
+    text-align: center;
+    width: 480px;
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.title {
+    top: 15%;
+    left: 55%;
+    color: #212b08;
+    font-size: 19px;
+}
+.bonus .titlectn {
+    position:absolute;
+    top: 50px;
+    left: 45%;
+    color: #212b08;
+    font-size: 19px;
+}
+img.back {
+    width: 100%;
+    height: 320px;
+}
+
+i.fas.fa-hand-point-right {
+    margin-right: 5px;
+    margin-left: -5px;
+}
+
+p.copy{
+    text-align: center;
+}
+
+.copyright.jumbotron {
+    background-color: #50b848!important;
+    margin-top: -33px;
+}
+
+.fas{
+    padding-left: 10px;
+}
+.sytle{
+    list-style-type: none;
+}
+
+.bonus{
+    position:relative;
+    width:100%;
+    height: 320px;
+}
+
+div.bonus div.title{
+    position:absolute;
+}
+
+.nd{
+    position:absolute;
+    top: 58%;
+    left: 51%;
+    background-color: #50b848;
+    width: 744px;
+    height: 134px;
+    border-radius: 10px;
+}
+
+@media (max-width: 1520px){
+    *{
+        
+    }
+
+    .nd {
+        width: 55%;
+        left: 45%;
+    }
+
+    .chu {
+        width: 87%;
+        margin-top: 30px;
+    }
+}
+
+.img_slide{
+    width: 30px;
+    height: 100px;
+}
+
+.trai{
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+.phai{
+    transform: translateX(-2000px);
+    opacity: 0;
+}
+
+._2trai {
+    transform: translateX(2000px);
+    opacity: 0;
+}
+
+._2phai {
+    transform: translateX(0px);
+    opacity: 1;
+}
