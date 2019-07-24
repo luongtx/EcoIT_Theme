@@ -1,3 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+nav.navbar.navbar-expand-md.bg-dark.navbar-dark.fixed-top {
+    background: black!important;
+}
+
+li.nav-item {
+    transition: 0.5s;
+}
+
+.td_tin {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ndtin {
+    float: right;
+    width: 530px;
+    height: 130px;
+}
+
+img.anh_tinnho {
+    width: 197px;
+    height: 148px;
+}
+
 .arrow-right {
     position: absolute;
     top: 50%;
@@ -15,16 +44,19 @@
     width: 100%;
     height: 225px;
     transition: 1s;
+    /* padding-bottom: 30px; */
+    overflow: hidden;
 }
 
 .slide2 {
     position: absolute;
     width: 100%;
     height: 225px;
-    top: 0px;
+    top: 30px;
     opacity: 0;
     transform: translateX(-2000px);
     transition: 1s;
+    overflow: hidden;
 }
 
 i.fas.fa-chevron-right {
@@ -102,6 +134,7 @@ p.copy{
     position:relative;
     width:100%;
     height: 320px;
+    margin-top: 50px;
 }
 
 div.bonus div.title{
@@ -130,7 +163,9 @@ div.bonus div.title{
 
     .chu {
         width: 87%;
-        margin-top: 30px;
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 30px;
     }
 }
 
@@ -157,4 +192,11 @@ div.bonus div.title{
 ._2phai {
     transform: translateX(0px);
     opacity: 1;
+}
+
+@media screen (max-width: 414px){
+    *{
+
+    }
+
 }
